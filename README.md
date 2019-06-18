@@ -23,7 +23,7 @@ If running on OS X, ensure that the command `gtimeout` is installed, commonly vi
 ### Building the Server ###
 
  1. Install the Go toolchain as appropriate for your platform.
- 2. Run `go get github.com/frenata/xaqt/...`
+ 2. Run `go get github.com/NisanthanNanthakumar/xaqt/...`
 
 ### Running the Server ###
 
