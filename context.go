@@ -89,7 +89,7 @@ func (c *Context) run(language, code, stdinGlob string) (string, Message) {
 	timeTaken := splitOutput[1]
 	result := splitOutput[0]
 
-	return result, Message{"success", "compilation took " + timeTaken + " seconds"}
+	return result, Message{"success", timeTaken + " seconds"}
 }
 
 // Languages returns a list of available language names.
